@@ -1,0 +1,80 @@
+Dokumen Rencana Proyek Pengembangan Sistem Perpustakaan Digital
+
+1.	Pendahuluan 
+  1.1.	Latar Belakang
+        Perpustakaan digital merupakan salah satu bagian penting dalam sistem informasi akademik modern. Pengelolaan data pustaka dan akses terhadap sumber daya digital seperti buku elektronik, repository tugas akhir, dan jurnal ilmiah sering kali masih dilakukan secara manual atau terpisah dari sistem utama. Hal ini menimbulkan berbagai permasalahan seperti keterlambatan peminjaman/pengembalian, kesulitan pencarian referensi, serta keterbatasan akses sumber daya akademik. Oleh karena itu, pengembangan modul perpustakaan digital yang terintegrasi dalam sistem informasi akademik menjadi solusi penting untuk meningkatkan efisiensi, aksesibilitas, dan keamanan dalam pengelolaan sumber daya pustaka.
+  1.2.	Tujuan Proyek
+        Tujuan dari pengembangan modul ini adalah:
+        •	Meningkatkan efisiensi manajemen peminjaman dan pengembalian buku secara digital.
+        •	Menyediakan repository terintegrasi untuk tugas akhir, skripsi, tesis, dan jurnal akademik.
+        •	Mempermudah akses terhadap e-learning dan referensi digital bagi sivitas akademika.
+        •	Menyediakan antarmuka pengguna yang responsif, intuitif, dan mudah digunakan.
+        •	Meningkatkan keamanan data pustaka dan hak akses pengguna.
+  1.3.	Ruang Lingkup Proyek
+        Ruang lingkup proyek ini mencakup pengembangan modul perpustakaan digital berbasis web sebagai bagian dari Sistem Informasi Akademik. Fitur utama meliputi:
+      •	Manajemen peminjaman dan pengembalian buku:
+        	Pencarian katalog buku.
+        	Pemesanan dan peminjaman secara online.
+        	Notifikasi pengingat pengembalian.
+      •	Repository tugas akhir dan jurnal akademik:
+        	Unggah dan pengelolaan dokumen ilmiah.
+        	Fitur pencarian dan pengelompokan berdasarkan program studi atau kata kunci.
+      •	Akses e-learning dan referensi digital:
+        	Integrasi dengan platform e-learning dan referensi digital eksternal.
+        	Pengelolaan hak akses dan autentikasi.
+      •	Teknologi:
+        	Backend: PHP (Yii2)
+        	Database: MySQL
+        	Frontend: Bootstrap 5
+        	RESTful API untuk integrasi
+      •	Pengguna: 
+        	Admin perpustakaan
+        	Mahasiswa
+        	Dosen
+2.	Tim Proyek
+
+Nama	Peran	Tanggung Jawab
+Ilmiati	Manajer Proyek
+	Mengelola keseluruhan proyek
+
+	Pengembang Backend
+	Implementasi logika peminjaman dan repository
+
+Lisdiawati	Analis Sistem
+	Analisis kebutuhan dan alur system perpustakaan
+	Pengembang Frontend
+	Desain antarmuka pengguna
+
+
+3.	Jadwal Proyek (Timeline)
+
+Tahapan	Deskripsi	Durasi
+Perencanaan	Identifikasi kebutuhan dan studi kelayakan	1 minggu
+Analisis	Pengumpulan dan analisis kebutuhan pengguna	2 minggu
+Desain Sistem	Perancangan arsitektur modul dan database	2 minggu
+Implementasi	Pemgembangan backed dan frontend modul	1 minggu
+Pengujian	Pengujian unit, integrasi, dan UAT	2 minggu
+Deployment	Penerapan modul dan pelatihan admin
+	1 minggu
+Pemeliharaan	Perbaikan bug dan peningkatan fitur	2 minggu
+
+4.	Anggaran Proyek
+
+Komponen	Biaya Estimasi
+Pengembangan Modul	Rp 25.000.000
+Infrastruktur dan Server	Rp 15.000.000
+Pelatihan Pengguna	Rp 5.000.000
+Pemeliharaan dan Dukungan	Rp 10.000.000
+Total	Rp 55.000.000
+
+
+5.	Manajemen Risiko
+
+Risiko	Dampak	Mitigasi
+Perubahan kebutuhan pengguna	Tinggi	Dokumentasi awal yang lengkap dan komunikasi rutin dengan stakeholder
+Gangguan akses referensi digital	Sedang	Penyimpanan lokal alternatif dan caching data
+Kesalahan saat unggah dokumen	Sedang	Validasi format file dan batas ukuran unggahan
+
+6.	Kesimpulan
+Pengembangan modul perpustakaan digital ini merupakan langkah strategis dalam transformasi digital sistem informasi akademik. Modul ini mendukung pengelolaan sumber daya pustaka secara efisien, meningkatkan aksesibilitas referensi ilmiah, dan memastikan keamanan data melalui integrasi teknologi yang andal. Dengan implementasi yang tepat, modul ini akan memberikan manfaat jangka panjang bagi seluruh sivitas akademika.
+
